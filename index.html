@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LunaShop - Toko Online Terpercaya dengan Berbagai Produk Berkualitas. Temukan produk terbaik dengan harga terjangkau.">
+    
+    <title>LunaShop | Toko Online Terpercaya</title>
+    
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" as="style">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
+   <header>
+    <div class="container">
+        <a href="#" class="logo">LunaShop</a>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+            <span class="sr-only">Menu</span>
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav id="primary-navigation">
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#categories">Kategori</a></li>
+                <li><a href="#products">Produk</a></li>
+                <li><a href="#promo">Promo</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li>
+                    <a href="#cart" class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                </li>
+                <li>
+                    <button id="theme-toggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+    <main id="main-content">
+        <section id="hero">
+            <div class="container hero-content">
+                <h1>Selamat Datang di LunaShop</h1>
+                <p class="subtitle">Temukan produk terbaik dengan harga terjangkau dan kualitas terjamin.</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="cta-button">Belanja Sekarang</a>
+                    <a href="#promo" class="cta-button secondary">Lihat Promo</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="categories">
+            <div class="container">
+                <h2>Kategori Produk</h2>
+                <p class="section-subtitle">Jelajahi berbagai kategori produk kami</p>
+                
+                <div class="categories-grid">
+                    <div class="category-card scroll-animate">
+                        <i class="fas fa-tshirt category-icon"></i>
+                        <h3>Fashion</h3>
+                        <p>Pakaian dan aksesori terkini</p>
+                    </div>
+                    <div class="category-card scroll-animate">
+                        <i class="fas fa-mobile-alt category-icon"></i>
+                        <h3>Elektronik</h3>
+                        <p>Gadget dan perangkat elektronik</p>
+                    </div>
+                    <div class="category-card scroll-animate">
+                        <i class="fas fa-home category-icon"></i>
+                        <h3>Rumah Tangga</h3>
+                        <p>Kebutuhan rumah dan dapur</p>
+                    </div>
+                    <div class="category-card scroll-animate">
+                        <i class="fas fa-heartbeat category-icon"></i>
+                        <h3>Kesehatan</h3>
+                        <p>Produk kesehatan dan kecantikan</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products">
+            <div class="container">
+                <h2>Produk Terbaru</h2>
+                <p class="section-subtitle">Temukan produk terbaru dengan penawaran spesial</p>
+                
+                <div class="products-grid">
+                    <div class="product-card scroll-animate">
+                        <div class="product-image">
+                            <img src="https://via.placeholder.com/300x300/6a11cb/ffffff?text=Fashion+Item" 
+                                 alt="Kaos Premium LunaShop" 
+                                 loading="lazy">
+                            <button class="wishlist-btn" aria-label="Add to wishlist">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                        <div class="product-content">
+                            <h3>Kaos Premium LunaShop</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(42)</span>
+                            </div>
+                            <div class="product-price">
+                                <span class="current-price">Rp 149.000</span>
+                                <span class="original-price">Rp 199.000</span>
+                            </div>
+                            <button class="add-to-cart-btn">Tambah ke Keranjang</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card scroll-animate">
+                        <div class="product-image">
+                            <img src="https://via.placeholder.com/300x300/2575fc/ffffff?text=Headphones" 
+                                 alt="Headphone Wireless" 
+                                 loading="lazy">
+                            <button class="wishlist-btn" aria-label="Add to wishlist">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                        <div class="product-content">
+                            <h3>Headphone Wireless Premium</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(28)</span>
+                            </div>
+                            <div class="product-price">
+                                <span class="current-price">Rp 599.000</span>
+                                <span class="original-price">Rp 799.000</span>
+                            </div>
+                            <button class="add-to-cart-btn">Tambah ke Keranjang</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card scroll-animate">
+                        <div class="product-image">
+                            <img src="https://via.placeholder.com/300x300/2d3748/ffffff?text=Home+Decor" 
+                                 alt="Lampu Meja Minimalis" 
+                                 loading="lazy">
+                            <button class="wishlist-btn" aria-label="Add to wishlist">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                        <div class="product-content">
+                            <h3>Lampu Meja Minimalis</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(56)</span>
+                            </div>
+                            <div class="product-price">
+                                <span class="current-price">Rp 299.000</span>
+                                <span class="original-price">Rp 399.000</span>
+                            </div>
+                            <button class="add-to-cart-btn">Tambah ke Keranjang</button>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card scroll-animate">
+                        <div class="product-image">
+                            <img src="https://via.placeholder.com/300x300/4a5568/ffffff?text=Skincare" 
+                                 alt="Skincare Set" 
+                                 loading="lazy">
+                            <button class="wishlist-btn" aria-label="Add to wishlist">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                        <div class="product-content">
+                            <h3>Skincare Set Lengkap</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(37)</span>
+                            </div>
+                            <div class="product-price">
+                                <span class="current-price">Rp 449.000</span>
+                                <span class="original-price">Rp 599.000</span>
+                            </div>
+                            <button class="add-to-cart-btn">Tambah ke Keranjang</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="view-all-container">
+                    <a href="#" class="view-all-btn">Lihat Semua Produk</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="promo">
+            <div class="container">
+                <h2>Promo Spesial</h2>
+                <p class="section-subtitle">Dapatkan penawaran terbatas untuk produk pilihan</p>
+                
+                <div class="promo-banner scroll-animate">
+                    <div class="promo-content">
+                        <h3>Diskon 30% untuk Pembelian Pertama!</h3>
+                        <p>Gunakan kode: <strong>WELCOME30</strong></p>
+                        <p>Berlaku hingga 30 September 2025</p>
+                        <a href="#products" class="cta-button">Klaim Sekarang</a>
+                    </div>
+                    <div class="promo-image">
+                        <img src="https://via.placeholder.com/400x300/ff6b6b/ffffff?text=Promo+Spesial" 
+                             alt="Promo Diskon 30%" 
+                             loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <div class="container">
+                <h2>Testimonial Pelanggan</h2>
+                <p class="section-subtitle">Apa kata pelanggan tentang pengalaman berbelanja di LunaShop</p>
+                
+                <div class="testimonials-grid">
+                    <div class="testimonial-card scroll-animate">
+                        <p>"Produknya berkualitas tinggi, pengiriman cepat, dan packagingnya sangat rapi. Pasti akan belanja lagi di sini!"</p>
+                        <div class="client-info">
+                            <img src="https://via.placeholder.com/50" alt="Foto pelanggan" class="client-photo">
+                            <div>
+                                <p class="client-name">— Sinta Rahayu</p>
+                                <p class="client-title">Pelanggan Setia</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card scroll-animate">
+                        <p>"Harga kompetitif dan sering ada promo. Customer service juga responsif dan membantu."</p>
+                        <div class="client-info">
+                            <img src="https://via.placeholder.com/50" alt="Foto pelanggan" class="client-photo">
+                            <div>
+                                <p class="client-name">— Rizky Pratama</p>
+                                <p class="client-title">Pelanggan Setia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container about-content scroll-animate">
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/400x400/cccccc/333333?text=LunaShop" 
+                         alt="Toko Online LunaShop" 
+                         loading="lazy"
+                         width="400"
+                         height="400">
+                </div>
+                <div class="about-text">
+                    <h2>Tentang LunaShop</h2>
+                    <p>LunaShop adalah toko online terpercaya yang menyediakan berbagai produk berkualitas dengan harga terjangkau. Kami berkomitmen untuk memberikan pengalaman berbelanja online yang terbaik bagi pelanggan kami.</p>
+                    <p>Dengan layanan customer service yang responsif dan pengiriman yang cepat, kami memastikan setiap transaksi berjalan lancar dan memuaskan.</p>
+                    <div class="features">
+                        <h3>Keunggulan Kami:</h3>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Produk Berkualitas</li>
+                            <li><i class="fas fa-check"></i> Harga Terjangkau</li>
+                            <li><i class="fas fa-check"></i> Pengiriman Cepat</li>
+                            <li><i class="fas fa-check"></i> Garansi Produk</li>
+                            <li><i class="fas fa-check"></i> Layanan Pelanggan 24/7</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="scroll-animate">
+            <div class="container">
+                <h2>Hubungi Kami</h2>
+                <p class="section-subtitle">Punya pertanyaan atau butuh bantuan? Tim kami siap membantu Anda!</p>
+                
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Alamat</h3>
+                                <p>Jl. Contoh No. 123, Jakarta Selatan</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Telepon</h3>
+                                <p>+62 21 1234 5678</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>info@lunashop.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Jam Operasional</h3>
+                                <p>Senin - Minggu, 08:00 - 22:00 WIB</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form id="contact-form" action="https://formspree.io/f/xblkqjny" method="POST" novalidate>
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" placeholder="Nama lengkap" required>
+                            <span class="error-message" aria-live="polite"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="email@contoh.com" required>
+                            <span class="error-message" aria-live="polite"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <input type="text" id="subject" name="subject" placeholder="Subjek pesan" required>
+                            <span class="error-message" aria-live="polite"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" placeholder="Pesan Anda..." rows="5" required></textarea>
+                            <span class="error-message" aria-live="polite"></span>
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button type="submit" class="cta-button">
+                                <span class="button-text">Kirim Pesan</span>
+                                <span class="button-loader" aria-hidden="true"></span>
+                            </button>
+                        </div>
+
+                        <div id="form-status" aria-live="polite"></div>
+                    </form>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <i class="fab fa-facebook-f" title="Facebook"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <i class="fab fa-instagram" title="Instagram"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                        <i class="fab fa-twitter" title="Twitter"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp" title="WhatsApp"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>LunaShop</h3>
+                    <p>Toko online terpercaya dengan berbagai produk berkualitas dan harga terjangkau.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Kategori</h3>
+                    <ul>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="#">Elektronik</a></li>
+                        <li><a href="#">Rumah Tangga</a></li>
+                        <li><a href="#">Kesehatan & Kecantikan</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Informasi</h3>
+                    <ul>
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Syarat & Ketentuan</a></li>
+                        <li><a href="#">Bantuan & FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Berlangganan newsletter untuk mendapatkan info promo dan produk terbaru.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Email Anda" required>
+                        <button type="submit">Berlangganan</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> <span id="copyright-trigger" tabindex="0">LunaShop</span>. All rights reserved.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa" title="Visa"></i>
+                    <i class="fab fa-cc-mastercard" title="Mastercard"></i>
+                    <i class="fab fa-cc-paypal" title="PayPal"></i>
+                    <i class="fab fa-cc-amazon-pay" title="Amazon Pay"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="loading-overlay" id="loading-overlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
